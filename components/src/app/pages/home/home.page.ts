@@ -9,12 +9,12 @@ import { NavItem } from 'src/app/interfaces/component';
 export class HomePage implements OnInit {
   components: NavItem[] = [
     {
-      icon: 'football-outline',
+      icon: 'alert-circle-outline',
       name: 'alert',
       redirecTo: '/alert',
     },
     {
-      icon: 'american-football-outline',
+      icon: 'contract-outline',
       name: 'action sheet',
       redirecTo: '/action-sheet',
     }

@@ -13,6 +13,15 @@
   </ion-toolbar>
 </ion-header> -->
 
-<ion-content>
-
+<ion-content class="ion-padding">
+  <div class="container">
+    <ion-button (click)="showActionSheet()">
+      <ion-icon
+        name="help-circle-outline"
+        slot="start"
+      ></ion-icon>
+      Show
+    </ion-button>
+    <code *ngIf="result">{{ result }}</code>
+  </div>
 </ion-content>
