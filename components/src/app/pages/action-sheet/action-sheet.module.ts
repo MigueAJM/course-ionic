@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
+import { ComponentsModule } from 'src/app/components/components.module';
 
 import { ActionSheetPageRoutingModule } from './action-sheet-routing.module';
 
@@ -13,8 +14,9 @@ import { ActionSheetPage } from './action-sheet.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    ActionSheetPageRoutingModule
+    ActionSheetPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [ActionSheetPage]
 })
-export class ActionSheetPageModule {}
+export class ActionSheetPageModule { }
