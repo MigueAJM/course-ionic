@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-back-button slot="start"></ion-back-button>
+    <ion-title class="ion-text-capitalize">avatar</ion-title>
+    <ion-buttons slot="end">
+      <ion-avatar>
+        <!-- <img
+          src="./assets/images/profile.jpg"
+          alt="profile"
+        /> -->
+        <!-- Carga de imagen con lazyload -->
+        <ion-img
+          src="/assets/images/profile.jpg"
+          alt="profile
+        "
+        ></ion-img>
+      </ion-avatar>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-chip
+    color="primary"
+    outline="true"
+  >
+    <ion-avatar>
+      <ion-img
+        src="/assets/images/profile.jpg"
+        alt="profile"
+      ></ion-img>
+    </ion-avatar>
+    <ion-label>Default</ion-label>
+  </ion-chip>
+  <ion-list>
+    <ion-item *ngFor="let item of [1,1,1,1,1,1]">
+      <ion-avatar slot="start">
+        <ion-img
+          src="/assets/images/profile.jpg"
+          alt="profile"
+        ></ion-img>
+      </ion-avatar>
+      <ion-label>Item Avatar</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -14,6 +14,11 @@ export class HomePage implements OnInit {
       redirecTo: '/alert',
     },
     {
+      icon: 'beaker-outline',
+      name: 'avatar',
+      redirecTo: '/avatar',
+    },
+    {
       icon: 'contract-outline',
       name: 'action sheet',
       redirecTo: '/action-sheet',

@@ -6,3 +6,4 @@
 - icon -> [ion-icons](https://ionicons.com)
 - component -> [ion-action-sheet:](https:ionicframework.com/docs/api/action-sheet) An Action Sheet is a dialog that displays a set of options. It appears on top of the app's content, and must be manually dismissed by the user before they can resume interaction with the app.
 - component -> [ion-alert:](https://ionicframework.com/docs/api/alert) An Alert is a dialog that presents users with information or collects information from the user using inputs.
+- component -> [ion-avatar:](https://ionicframework.com/docs/api/avatar) Avatars are circular components that usually wrap an image or icon. They can be used to represent a person or an object.
