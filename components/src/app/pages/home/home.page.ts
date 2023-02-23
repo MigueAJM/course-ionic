@@ -21,7 +21,12 @@ export class HomePage implements OnInit {
     {
       icon: 'contract-outline',
       name: 'action sheet',
-      redirecTo: '/action-sheet',
+      redirecTo: '/action-sheet'
+    },
+    {
+      icon: 'radio-button-off-outline',
+      name: 'buttons',
+      redirecTo: '/button'
     }
   ];
   constructor() { }
